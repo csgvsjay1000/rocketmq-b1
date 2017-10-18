@@ -1,0 +1,6 @@
+[14:09:55:021] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - test
+[14:09:55:022] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:24) - 
+[14:11:36:952] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - test
+[14:19:35:943] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - test
+[14:23:36:321] [INFO] - invengo.cn.rocketmq.common.test.CommonTest.main(CommonTest.java:11) - test
+[14:27:09:727] [INFO] - invengo.cn.rocketmq.common.test.CommonTest.main(CommonTest.java:11) - test

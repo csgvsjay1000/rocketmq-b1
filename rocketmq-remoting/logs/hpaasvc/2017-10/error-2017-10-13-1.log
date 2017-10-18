@@ -1,0 +1,18 @@
+[10:10:35:355] [ERROR] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.error(Log4jImpl.java:35) - encode exception. 
+java.nio.BufferOverflowException
+	at java.nio.HeapByteBuffer.put(Unknown Source) ~[?:1.8.0_101]
+	at java.nio.ByteBuffer.put(Unknown Source) ~[?:1.8.0_101]
+	at invengo.cn.rocketmq.remoting.protocol.RemotingCommand.encodeHeader(RemotingCommand.java:32) ~[classes/:?]
+	at invengo.cn.rocketmq.remoting.protocol.RemotingCommand.encodeHeader(RemotingCommand.java:12) ~[classes/:?]
+	at invengo.cn.rocketmq.remoting.netty.NettyEncoder.encode(NettyEncoder.java:19) [classes/:?]
+	at invengo.cn.rocketmq.remoting.netty.NettyEncoder.encode(NettyEncoder.java:1) [classes/:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.access$1900(AbstractChannelHandlerContext.java:38) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1081) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1128) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1070) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]

@@ -1,0 +1,17 @@
+[15:23:34:626] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:27) - send a command request to channel </127.0.0.1:8888> failed.
+[15:28:34:632] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:27) - send a command request to channel <null> failed.
+[15:33:34:634] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:27) - send a command request to channel <null> failed.
+[10:05:35:323] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:27) - send a command request to channel <null> failed.
+[10:20:35:339] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:27) - send a command request to channel <null> failed.
+[10:42:59:061] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[10:44:49:267] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[10:45:13:625] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[10:46:42:408] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[10:52:05:929] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[10:56:11:666] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[10:57:17:800] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[10:58:02:592] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[11:00:55:968] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[11:01:47:059] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[11:12:05:350] [WARN] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.warn(Log4jImpl.java:28) - send a command request to channel <null> failed.
+[11:29:57:864] [WARN] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:110) - createChannel: connect remote host [127.0.0.1:8888] failed, AbstractBootstrap$PendingRegistrationPromise@3cc1ca21(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8888)

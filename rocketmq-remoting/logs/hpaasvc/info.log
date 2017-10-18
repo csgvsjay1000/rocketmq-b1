@@ -1,0 +1,463 @@
+[10:05:19:710] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[10:05:35:297] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - begin connect
+[10:05:35:330] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - local: unkonw
+[10:05:35:330] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - remote: 127.0.0.1:8888
+[10:05:35:349] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server channelRegistered 127.0.0.1:50349
+[10:05:35:349] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server channelActive 127.0.0.1:50349
+[10:10:35:322] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - begin connect
+[10:10:35:325] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - local: unkonw
+[10:10:35:325] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - remote: 127.0.0.1:8888
+[10:10:35:330] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server channelRegistered 127.0.0.1:50356
+[10:10:35:331] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server channelActive 127.0.0.1:50356
+[10:10:35:381] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - send a command request to channel </127.0.0.1:8888> complete.
+[10:15:35:326] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - begin connect
+[10:15:35:331] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - local: unkonw
+[10:15:35:331] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - remote: 127.0.0.1:8888
+[10:15:35:336] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - send a command request to channel </127.0.0.1:8888> complete.
+[10:15:35:336] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server channelRegistered 127.0.0.1:50366
+[10:15:35:338] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server channelActive 127.0.0.1:50366
+[10:20:35:332] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - begin connect
+[10:20:35:338] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - local: unkonw
+[10:20:35:339] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - remote: 127.0.0.1:8888
+[10:20:35:344] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server channelRegistered 127.0.0.1:50368
+[10:20:35:345] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server channelActive 127.0.0.1:50368
+[10:25:29:138] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server exceptionCaught 127.0.0.1:50356
+[10:25:29:138] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server exceptionCaught 127.0.0.1:50349
+[10:25:29:138] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server exceptionCaught 127.0.0.1:50368
+[10:25:29:138] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:14) - Netty server exceptionCaught 127.0.0.1:50366
+[10:25:29:138] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:19) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:25:29:138] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:19) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:25:29:138] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:19) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:25:29:138] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:19) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:30:31:219] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[10:30:31:219] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:24) - 
+[10:34:59:283] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[10:34:59:298] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:24) - 
+[10:42:30:127] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer.start(NettyRemotingServer.java:105) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[10:42:59:026] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[10:42:59:061] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[10:42:59:061] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[10:42:59:077] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60218
+[10:42:59:077] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60218
+[10:44:33:365] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60218
+[10:44:33:365] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:44:49:267] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[10:44:49:267] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[10:44:49:267] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[10:44:49:282] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60223
+[10:44:49:282] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60223
+[10:45:13:625] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[10:45:13:625] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[10:45:13:625] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[10:45:13:625] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60228
+[10:45:13:625] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60228
+[10:45:38:436] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:120) - Netty client pipeline exceptionCaught 127.0.0.1:8888
+[10:45:38:436] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:121) - Netty client pipeline exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:45:38:459] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:120) - Netty client pipeline exceptionCaught 127.0.0.1:8888
+[10:45:38:460] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:121) - Netty client pipeline exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:46:37:603] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer.start(NettyRemotingServer.java:105) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[10:46:42:408] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[10:46:42:408] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[10:46:42:408] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[10:46:42:424] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60241
+[10:46:42:424] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60241
+[10:48:31:226] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60241
+[10:48:31:226] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:52:00:872] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer.start(NettyRemotingServer.java:105) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[10:52:05:929] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[10:52:05:929] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[10:52:05:929] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[10:52:05:945] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60276
+[10:52:05:945] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60276
+[10:55:27:545] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60276
+[10:55:27:545] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:56:11:666] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[10:56:11:666] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[10:56:11:666] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[10:56:11:666] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60301
+[10:56:11:666] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60301
+[10:57:07:468] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60301
+[10:57:07:484] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[10:57:17:785] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[10:57:17:800] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[10:57:17:800] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[10:57:17:800] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60306
+[10:57:17:800] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60306
+[10:58:02:576] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[10:58:02:592] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[10:58:02:592] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[10:58:02:592] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60310
+[10:58:02:592] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60310
+[11:00:55:968] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[11:00:55:968] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[11:00:55:968] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[11:00:55:968] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60621
+[11:00:55:968] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60621
+[11:01:20:933] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60306
+[11:01:20:933] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[11:01:29:296] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60310
+[11:01:29:296] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[11:01:34:433] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60621
+[11:01:34:433] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[11:01:47:043] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[11:01:47:059] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[11:01:47:059] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[11:01:47:059] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60624
+[11:01:47:059] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60624
+[11:06:47:072] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:91) - begin connect
+[11:06:47:072] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:111) - local: unkonw
+[11:06:47:072] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:112) - remote: 127.0.0.1:8888
+[11:06:47:088] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60625
+[11:06:47:088] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60625
+[11:06:47:088] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - send a command request to channel </127.0.0.1:8888> complete.
+[11:06:47:088] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:24) - 
+[11:06:51:208] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:120) - Netty client pipeline exceptionCaught 127.0.0.1:8888
+[11:06:51:224] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:121) - Netty client pipeline exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[11:06:51:224] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:120) - Netty client pipeline exceptionCaught 127.0.0.1:8888
+[11:06:51:224] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:121) - Netty client pipeline exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[11:11:51:897] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer.start(NettyRemotingServer.java:105) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[11:12:05:335] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:95) - begin connect
+[11:12:05:350] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:116) - local: unkonw
+[11:12:05:350] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:117) - remote: 127.0.0.1:8888
+[11:12:05:366] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60679
+[11:12:05:366] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60679
+[11:12:26:699] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60679
+[11:12:26:699] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[11:29:56:850] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:96) - createChannel: connect remote host [127.0.0.1:8888]
+[11:29:56:850] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:138) - local: unkonw
+[11:29:56:850] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:139) - remote: 127.0.0.1:8888
+[11:31:25:339] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer.start(NettyRemotingServer.java:105) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[11:31:31:268] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:96) - createChannel: connect remote host [127.0.0.1:8888]
+[11:31:31:268] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:138) - local: unkonw
+[11:31:31:268] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:139) - remote: 127.0.0.1:8888
+[11:31:31:268] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:107) - createChannel: connect remote host [127.0.0.1:8888] success, AbstractBootstrap$PendingRegistrationPromise@3cc1ca21(success) 
+[11:31:31:299] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - send a command request to channel </127.0.0.1:8888> complete.
+[11:31:31:299] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:24) - 
+[11:31:31:299] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60717
+[11:31:31:299] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60717
+[11:32:40:421] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60717
+[11:32:40:421] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[11:32:46:966] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:96) - createChannel: connect remote host [127.0.0.1:8888]
+[11:32:46:966] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:138) - local: unkonw
+[11:32:46:966] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:139) - remote: 127.0.0.1:8888
+[11:32:46:966] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:107) - createChannel: connect remote host [127.0.0.1:8888] success, AbstractBootstrap$PendingRegistrationPromise@2b95ee31(success) 
+[11:32:46:966] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60723
+[11:32:46:966] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60723
+[11:34:19:524] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:138) - Netty server exceptionCaught 127.0.0.1:60723
+[11:34:19:524] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.exceptionCaught(NettyRemotingServer.java:139) - Netty server exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
+[11:39:11:798] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer.start(NettyRemotingServer.java:105) - Netty server bind: /0:0:0:0:0:0:0:0:8888
+[11:39:16:746] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:96) - createChannel: connect remote host [127.0.0.1:8888]
+[11:39:16:746] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:138) - local: unkonw
+[11:39:16:746] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.connect(NettyRemotingClient.java:139) - remote: 127.0.0.1:8888
+[11:39:16:746] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient.createChannel(NettyRemotingClient.java:107) - createChannel: connect remote host [127.0.0.1:8888] success, AbstractBootstrap$PendingRegistrationPromise@3cc1ca21(success) 
+[11:39:16:762] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyEncoder.encode(NettyEncoder.java:21) - msg: 2
+[11:39:16:762] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:23) - send a command request to channel </127.0.0.1:8888> complete.
+[11:39:16:762] [INFO] - invengo.cn.rocketmq.common.log.impl.Log4jImpl.info(Log4jImpl.java:24) - 
+[11:39:16:778] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelRegistered(NettyRemotingServer.java:123) - Netty server channelRegistered 127.0.0.1:60734
+[11:39:16:778] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingServer$NettyConnectManagerHandler.channelActive(NettyRemotingServer.java:130) - Netty server channelActive 127.0.0.1:60734
+[11:42:34:981] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:147) - Netty client pipeline exceptionCaught 127.0.0.1:8888
+[11:42:34:981] [INFO] - invengo.cn.rocketmq.remoting.netty.NettyRemotingClient$NettyConnectManagerHandler.exceptionCaught(NettyRemotingClient.java:148) - Netty client pipeline exceptionCaught exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_101]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1106) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:343) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) ~[netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [netty-all-4.1.16.Final.jar:4.1.16.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
